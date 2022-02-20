@@ -12,20 +12,20 @@ public class Main {
         employee1.setEmail("ilya@com.ru");
         employee1.setPhone("99999999");
         employee1.setPosition("Программист");
-        employee1.setSalary(100000.0);
+        employee1.setSalary(100000);
 
         employee2.setAge(50);
         employee2.setFullname("Полина Моисеева Олеговна");
         employee2.setEmail("email@com");
         employee2.setPhone("8888888");
-        employee2.setSalary(1100000.0);
+        employee2.setSalary(1100000);
         employee2.setPosition("Химик технолог");
 
         employee3.setAge(60);
         employee3.setFullname("Василий Акинин Сергеевич");
         employee3.setEmail("email123@com");
         employee3.setPhone("8883244");
-        employee3.setSalary(11340000.0);
+        employee3.setSalary(1134000);
         employee3.setPosition("SSM специалист");
 
 
