@@ -9,7 +9,9 @@ public class Drum implements InterfaceInstruments {
     }
 
     public Drum(String size) {
-        if (size.trim().isEmpty())
+        if (size.trim().isEmpty()) {
+            throw new IllegalArgumentException("Вы не ввели размер");
+        } else
             setSize(size);
     }
 

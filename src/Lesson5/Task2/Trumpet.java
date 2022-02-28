@@ -22,8 +22,8 @@ public class Trumpet implements InterfaceInstruments {
 
     @Override
     public String toString() {
-        return "Играет  инструмент : Труба{" +
-                "Деаметр трубы = " + trumpetDeametr +
+        return "Trumpet{" +
+                "trumpetDeametr=" + trumpetDeametr +
                 '}';
     }
 }
