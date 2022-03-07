@@ -27,7 +27,6 @@ public final class ArrayOperations {
         return -1;
     }
 
-
     public static void sum(int[] arr) {
         int sumArr = 0;
         for (int i = 0; i < arr.length; i++) {
